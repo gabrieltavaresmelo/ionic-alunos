@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Início</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <button ion-button icon-start block (click)="showPrompt()">
+    <ion-icon name="add"></ion-icon>
+    Adicionar
+  </button>
+
+  <ion-list>
+    <ion-item *ngFor="let item of vetor2">
+      <ion-thumbnail item-start>
+        <img src="{{item.foto}}">
+      </ion-thumbnail>
+      <h2>{{item.nome}}</h2>
+      <p>{{item.telefone}} | {{item.matricula}}</p>
+      <button ion-button clear item-end color="danger" (click)="showConfirm(item)">Excluir</button>
+    </ion-item>
+  </ion-list>
+  
+</ion-content>
