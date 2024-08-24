@@ -14,8 +14,6 @@ Este projeto é um aplicativo de CRUD de alunos desenvolvido com **Ionic 3** e *
 
 - **Ionic 3**: Framework para desenvolvimento de aplicações híbridas.
 - **Node.js 10.24.1**: Plataforma para execução do JavaScript no backend.
-- **Express.js**: Framework web para Node.js, utilizado para criar a API RESTful.
-- **MongoDB**: Banco de dados NoSQL para armazenar os dados dos alunos.
 
 ## 📋 Funcionalidades
 
@@ -29,20 +27,20 @@ Este projeto é um aplicativo de CRUD de alunos desenvolvido com **Ionic 3** e *
 ### Pré-requisitos
 
 - [Node.js 10.24.1](https://nodejs.org/en/download/)
-- [Ionic CLI 3](https://ionicframework.com/docs/cli)
+- [Ionic 3](https://ionicframework.com/docs/v3)
 
 ### Instalação
 
 1. Clone o repositório:
 
     ```bash
-    git clone https://github.com/seu-usuario/seu-repositorio.git
+    git clone git@github.com:gabrieltavaresmelo/ionic-alunos.git
     ```
 
 2. Navegue até o diretório do projeto:
 
     ```bash
-    cd seu-repositorio
+    cd ionic-alunos
     ```
 
 3. Instale as dependências:
@@ -53,19 +51,13 @@ Este projeto é um aplicativo de CRUD de alunos desenvolvido com **Ionic 3** e *
 
 ### Executando o Aplicativo
 
-1. Inicie o servidor backend:
-
-    ```bash
-    node server.js
-    ```
-
-2. Inicie o aplicativo Ionic:
+1. Inicie o aplicativo Ionic:
 
     ```bash
     ionic serve
     ```
 
-3. Acesse o aplicativo em seu navegador em [http://localhost:8100](http://localhost:8100).
+2. Acesse o aplicativo em seu navegador em [http://localhost:8100](http://localhost:8100).
 
 ## 📦 Estrutura do Projeto
 
